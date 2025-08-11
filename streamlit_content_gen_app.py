@@ -273,7 +273,7 @@ def markdown_to_html(text: str) -> str:
     return "<html><body>\n" + "\n".join(html_lines) + "\n</body></html>"
 
 # --------------- UI ---------------
-st.set_page_config(page_title="Brand-Aware SEO Content Generator", page_icon="📝", layout="wide")
+st.set_page_config(page_title="COG SEO Content Generator 2.0", page_icon="📝", layout="wide")
 st.title("📝 Brand‑Aware SEO Content Generator")
 st.caption("Generate SEO‑friendly titles, meta descriptions, and page copy in brand tone.")
 
