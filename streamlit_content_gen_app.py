@@ -274,7 +274,7 @@ def markdown_to_html(text: str) -> str:
 
 # --------------- UI ---------------
 st.set_page_config(page_title="COG SEO Content Generator 2.0", page_icon="📝", layout="wide")
-st.title("📝 Brand‑Aware SEO Content Generator")
+st.title("📝 COG SEO Content Generator 2.0")
 st.caption("Generate SEO‑friendly titles, meta descriptions, and page copy in brand tone.")
 
 with st.sidebar:
