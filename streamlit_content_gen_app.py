@@ -342,7 +342,7 @@ if generate:
             headings = ["##", "###", "####"]
             for i, topic in enumerate(topics):
                 prefix = headings[i] if i < len(headings) else "####"
-                prompt += f"{prefix} {topic} — Connect this topic clearly back to the Extra Context.\n"
+                prompt += f"{prefix} {topic}\n"
 
         try:
             client = openai.OpenAI(api_key=api_key)
